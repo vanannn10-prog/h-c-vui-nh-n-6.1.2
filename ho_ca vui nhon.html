@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ cá vui nhộn</title>
+    <style>
+        body{
+            background-color: #0077be;  
+        }
+        #shark{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes shark{
+    0% {left: 100px; top:400px;}
+    20% {left: 300px; top:400px;} 
+    40% {left: 500px; top:300px;}
+    60% {left: 600px; top:50px;}
+    80% {left: 500px; top:200px;}
+    100% {left: 100px; top:400px; transform:scaleX(-1);}
+}
+#goldFishSchool{
+    left: 300px; top: 400px;
+    position: absolute;
+    animation-name: goldFishSchool;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes goldFishSchool{
+    0% {left: 300px; top:400px;}
+    20% {left: 500px; top:400px;} 
+    40% {left: 700px; top:300px;}
+    60% {left: 800px; top:50px;}
+    80% {left: 700px; top:200px;}
+    100% {left: 300px; top:400px; transform:scaleX(-1);}
+}
+#faintSchool{
+    left: 300px; top: 400px;
+    position: absolute;
+    animation-name: faintSchool;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes faintSchool{
+    0%  { top:400px;}
+    20% { top:300px;} 
+    40% {top:200px;}
+    60% {top:100px;}
+    80% {top:50px;}
+    100% {top:0px;}
+}
+#diver1{
+    left: 100px; top: 550px;
+    position: absolute;
+    animation-name: diver1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver1{
+    0%  { top:550px;}
+    20% { top:250px;} 
+    40% {top:100px;}
+    60% {top:250px;}
+    80% {top: 400px;}
+    100% {top:550px;}
+}
+#diver2{
+    left: 400px; top: 550px;
+    position: absolute;
+    animation-name: diver2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver2{
+    0%  { top:550px;}
+    20% { top:300px;} 
+    40% {top:75px;}
+    60% {top:270px;}
+    80% {top: 420px;}
+    100% {top:550px;}
+}
+#turtle{
+    left: 500px; top: 400px;
+    position: absolute;
+    animation-name: turtle;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turtle{
+    0% {left: 500px; top:400px;}
+    20% {left: 700px; top:400px;} 
+    40% {left: 450px; top:300px;}
+    60% {left: 100px; top:50px;}
+    80% {left: 300px; top:200px;}
+    100% {left: 500px; top:400px; transform:scaleX(-1);}
+}
+#diver3{
+    left: 700px; top: 400px;
+    position: absolute;
+    animation-name: diver3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver3{
+    0%  { top:400px;}
+    20% { top:300px;} 
+    40% {top:100px;}
+    60% {top:270px;}
+    80% {top: 300px;}
+    100% {top:400px;}
+}
+    </style>
+</head>
+<div id="content">
+        
+        <div id="shark">
+            <img src="shark.png" width="auto" height="auto" alt="Shark">
+        </div>
+        
+        <div id="diver1">
+            <img src="diver1.png" width="auto" height="auto" alt="Diver 1">
+        </div>
+        
+        <div id="diver2">
+            <img src="diver2.png" width="auto" height="auto" alt="Diver 2">
+        </div>
+
+        <div id="diver3">
+            <img src="diver3.png" width="auto" height="auto" alt="Diver 3">
+        </div>
+        <div id="turtle">
+            <img src="turtle.png" width="auto" height="auto" alt="turtle">
+        </div>
+        <div id="faintSchool">
+            <img src="faintSchool.png" width="auto" height="auto" alt="faintSchool">
+        </div>
+        <div id="goldFishSchool">
+            <img src="goldFishSchool.png" width="auto" height="auto" alt="goldFishSchool">
+        </div>
+    </div>
+</body>
+</html>
